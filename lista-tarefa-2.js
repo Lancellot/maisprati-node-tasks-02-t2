@@ -1,5 +1,6 @@
 import  exibirTabuada from "./tarefas/tarefa-1.js";
 import contarDigitos from "./tarefas/tarefa-2.js";
+import exibirFibonacci from "./tarefas/tarefa-3.js";
 
 import {promptContinuar, sairPrograma, opcaoInvalida} from "./utils/utilsTexto.js";
 import exibirMenu from "./components/menu.js";
@@ -10,6 +11,7 @@ const prompt = promptSync();
 const acoes ={
     '1': exibirTabuada,
     '2': contarDigitos,
+    '3': exibirFibonacci,
 }
 
 let verificador = true;

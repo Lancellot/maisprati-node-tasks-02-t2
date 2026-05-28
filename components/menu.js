@@ -4,7 +4,7 @@ export default function exibirMenu() {
 
     console.log("===== MENU DE TAREFAS =====");
     console.log("1  - Tabuada (laço for)");
-    console.log("2  - Idade (classificação por faixa etária)");
+    console.log("2  - Contar Dígitos(laço while)");
     console.log("3  - Salário (cálculo de aumento)");
     console.log("4  - Maior entre 3 números");
     console.log("5  - Desconto progressivo em compra");

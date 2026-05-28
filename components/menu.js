@@ -3,7 +3,7 @@ export default function exibirMenu() {
     console.clear();
 
     console.log("===== MENU DE TAREFAS =====");
-    console.log("1  - Nota do aluno (aprovado/recuperação/reprovado)");
+    console.log("1  - Tabuada (laço for)");
     console.log("2  - Idade (classificação por faixa etária)");
     console.log("3  - Salário (cálculo de aumento)");
     console.log("4  - Maior entre 3 números");

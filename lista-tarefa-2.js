@@ -4,6 +4,7 @@ import exibirFibonacci from "./tarefas/tarefa-3.js";
 import verificarSenha from "./tarefas/tarefa-4.js";
 import exibirPrimos from "./tarefas/tarefa-5.js";
 import turmaNotas from "./tarefas/tarefa-6.js";
+import carrinhoCompras from "./tarefas/tarefa-7.js";
 
 import {promptContinuar, sairPrograma, opcaoInvalida} from "./utils/utilsTexto.js";
 import exibirMenu from "./components/menu.js";
@@ -17,7 +18,8 @@ const acoes ={
     '3': exibirFibonacci,
     '4': verificarSenha,
     '5': exibirPrimos,
-    '6': turmaNotas
+    '6': turmaNotas,
+    '7': carrinhoCompras
 }
 
 let verificador = true;

@@ -1,10 +1,7 @@
 //Leia um número inteiro positivo e, usando um laço while, calcule e exiba quantos
 //dígitos ele possui. Trate o caso do número zero (que possui 1 dígito).
-import promptSync from 'prompt-sync';
 
-const prompt = promptSync();
-
-export default function contarDigitos() {
+export default function contarDigitos(prompt) {
 
     let numero = parseInt(prompt("Digite um número inteiro positivo: "));
 

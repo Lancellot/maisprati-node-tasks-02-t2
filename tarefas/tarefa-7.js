@@ -2,11 +2,8 @@
 //o usuário digitar "sair". Armazene em arrays. Ao final, liste todos os itens, exiba o
 //subtotal, aplique 10% de desconto se houver mais de 3 itens e mostre o total a
 //pagar.
-import promptSync from 'prompt-sync';
 
-const prompt = promptSync();
-
-export default function carrinhoCompras() {
+export default function carrinhoCompras(prompt) {
 
     const produtos = [];
     const precos = [];

@@ -1,11 +1,8 @@
 //Leia um número N e exiba todos os números primos entre 2 e N usando laços
 //aninhados (for dentro de for). Exiba também a quantidade total de primos
 //encontrados.
-import promptSync from 'prompt-sync';
 
-const prompt = promptSync();
-
-export default function exibirPrimos() {
+export default function exibirPrimos(prompt) {
 
     const numero = parseInt(prompt("Digite um número N: "));
 

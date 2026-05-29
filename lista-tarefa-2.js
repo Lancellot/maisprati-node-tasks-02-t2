@@ -16,16 +16,16 @@ import promptSync from 'prompt-sync';
 const prompt = promptSync();
 
 const acoes ={
-    '1': exibirTabuada,
-    '2': contarDigitos,
-    '3': exibirFibonacci,
-    '4': verificarSenha,
-    '5': exibirPrimos,
-    '6': turmaNotas,
-    '7': carrinhoCompras,
-    '8': ehPalindromo,
-    '9': sorteioNumero,
-    '10': matrixNotas
+    '1': () => exibirTabuada(prompt),
+    '2': () => contarDigitos(prompt),
+    '3': () => exibirFibonacci(prompt),
+    '4': () => verificarSenha(prompt),
+    '5': () => exibirPrimos(prompt),
+    '6': () => turmaNotas(prompt),
+    '7': () => carrinhoCompras(prompt),
+    '8': () => ehPalindromo(prompt),
+    '9': () => sorteioNumero(prompt),
+    '10': () => matrixNotas(prompt)
 }
 
 let verificador = true;
@@ -39,12 +39,14 @@ do {
     if(opcao === "0") {
         sairPrograma();
         verificador = false;
-    }else if (acoes[opcao]) {
+        continue;
+    }
+
+    if (acoes[opcao]) {
         acoes[opcao]();
-        promptContinuar();
     } else {
         opcaoInvalida();
-        promptContinuar();
     }
+    promptContinuar();
 
 } while (verificador);

@@ -2,11 +2,8 @@
 //peça ao usuário para adivinhar; a cada tentativa, diga se o número é maior ou
 //menor. Registre as tentativas em um array e, ao acertar, exiba o histórico e
 //quantas tentativas foram necessárias.
-import promptSync from 'prompt-sync';
 
-const prompt = promptSync();
-
-export default function sorteioNumero() {
+export default function sorteioNumero(prompt) {
 
     const numeroSorteado = Math.floor(Math.random() * 100) + 1;
     const tentativas = [];

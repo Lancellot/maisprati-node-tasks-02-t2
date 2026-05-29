@@ -1,11 +1,8 @@
 //Crie uma matriz 3×4 (3 alunos, 4 notas cada). Leia os valores via laços aninhados.
 //Calcule e exiba a média de cada aluno, a média geral da turma e qual aluno teve
 //o melhor desempenho.
-import promptSync from 'prompt-sync';
 
-const prompt = promptSync();
-
-export default function matrixNotas() {
+export default function matrixNotas(prompt) {
 
     const alunos = 3;
     const notasPorAluno = 4;

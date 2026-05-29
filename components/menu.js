@@ -7,7 +7,7 @@ export default function exibirMenu() {
     console.log("2  - Contar Dígitos(laço while)");
     console.log("3  - Fibonacci (laço for)");
     console.log("4  - Verificar senha (laço do...while)");
-    console.log("5  - Desconto progressivo em compra");
+    console.log("5  - Números primos (laços aninhados)");
     console.log("6  - Caixa eletrônico (cédulas)");
     console.log("7  - Calculadora básica");
     console.log("8  - Pizza (tamanho e borda)");

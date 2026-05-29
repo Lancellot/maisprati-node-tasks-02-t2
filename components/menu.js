@@ -12,7 +12,7 @@ export default function exibirMenu() {
     console.log("7  - Carrinho de compras (arrays e laços)");
     console.log("8  - Palíndromo (arrays e laços)");
     console.log("9  - Sorteio de número (laço do...while)");
-    console.log("10 - Estacionamento (cobrança por horas)");
+    console.log("10 - Matriz de notas (arrays e laços)");
     console.log("0  - Sair");
     console.log("============================\n");
 

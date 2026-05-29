@@ -7,6 +7,7 @@ import turmaNotas from "./tarefas/tarefa-6.js";
 import carrinhoCompras from "./tarefas/tarefa-7.js";
 import ehPalindromo from "./tarefas/tarefa-8.js";
 import sorteioNumero from "./tarefas/tarefa-9.js";
+import matrixNotas from "./tarefas/tarefa-10.js";
 
 import {promptContinuar, sairPrograma, opcaoInvalida} from "./utils/utilsTexto.js";
 import exibirMenu from "./components/menu.js";
@@ -23,7 +24,8 @@ const acoes ={
     '6': turmaNotas,
     '7': carrinhoCompras,
     '8': ehPalindromo,
-    '9': sorteioNumero
+    '9': sorteioNumero,
+    '10': matrixNotas
 }
 
 let verificador = true;

@@ -3,6 +3,7 @@ import contarDigitos from "./tarefas/tarefa-2.js";
 import exibirFibonacci from "./tarefas/tarefa-3.js";
 import verificarSenha from "./tarefas/tarefa-4.js";
 import exibirPrimos from "./tarefas/tarefa-5.js";
+import turmaNotas from "./tarefas/tarefa-6.js";
 
 import {promptContinuar, sairPrograma, opcaoInvalida} from "./utils/utilsTexto.js";
 import exibirMenu from "./components/menu.js";
@@ -15,7 +16,8 @@ const acoes ={
     '2': contarDigitos,
     '3': exibirFibonacci,
     '4': verificarSenha,
-    '5': exibirPrimos
+    '5': exibirPrimos,
+    '6': turmaNotas
 }
 
 let verificador = true;

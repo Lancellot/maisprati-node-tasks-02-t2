@@ -5,6 +5,7 @@ import verificarSenha from "./tarefas/tarefa-4.js";
 import exibirPrimos from "./tarefas/tarefa-5.js";
 import turmaNotas from "./tarefas/tarefa-6.js";
 import carrinhoCompras from "./tarefas/tarefa-7.js";
+import ehPalindromo from "./tarefas/tarefa-8.js";
 
 import {promptContinuar, sairPrograma, opcaoInvalida} from "./utils/utilsTexto.js";
 import exibirMenu from "./components/menu.js";
@@ -19,7 +20,8 @@ const acoes ={
     '4': verificarSenha,
     '5': exibirPrimos,
     '6': turmaNotas,
-    '7': carrinhoCompras
+    '7': carrinhoCompras,
+    '8': ehPalindromo
 }
 
 let verificador = true;
@@ -40,7 +42,5 @@ do {
         opcaoInvalida();
         promptContinuar();
     }
-
-    
 
 } while (verificador);
